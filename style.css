@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    place-content: center;
+
+  }
+  h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .input-container {
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+
+  }
+  .input-container input{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    color: #333;
+    outline: none;
+
+  }
+ 
+
+  .input-container i{
+    padding: 10px;
+    color: #aaa;
+    cursor:pointer ;
+  }
